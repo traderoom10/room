@@ -2,221 +2,121 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Trade With Munaaf</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Munaaf Learning Community</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);
+t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','2175634296685708');fbq('track','PageView');
+</script>
+
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
+*{box-sizing:border-box}
 body{
-background:#0f172a;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-color:#fff;
+ margin:0;min-height:100vh;background:#000;
+ font-family:Poppins,sans-serif;display:flex;
+ justify-content:center;align-items:center;color:#fff;padding:15px
 }
-
-/* CARD */
-
-.container{
-width:95%;
-max-width:420px;
-padding:30px 25px;
-border-radius:18px;
-
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-
-border:1px solid rgba(255,255,255,0.08);
-
-box-shadow:0 20px 60px rgba(0,0,0,0.6);
-text-align:center;
+.card{
+ width:100%;max-width:360px;text-align:center;
+ padding:22px 18px;background:#061016;
+ border:1px solid #00d2ff;border-radius:28px;
+ box-shadow:0 0 30px #00d2ff22
 }
-
-/* LOGO */
-
-.logo{
-width:80px;
-height:80px;
-border-radius:50%;
-border:2px solid #FFD700;
-margin-bottom:12px;
+img{
+ width:105px;height:105px;border-radius:50%;
+ object-fit:cover;border:3px solid #00d2ff;
+ box-shadow:0 0 18px #00d2ff
 }
-
-/* TEXT */
-
-h1{
-font-size:22px;
-color:#FFD700;
-margin-bottom:6px;
+h1{font-size:24px;margin:12px 0 4px}
+.sub{color:#8fa0aa;font-size:12px;margin-bottom:20px}
+.list{text-align:left}
+.item{
+ padding:11px 5px;border-bottom:1px solid #ffffff12;
+ color:#ddd;font-size:12px
 }
-
-h2{
-font-size:15px;
-opacity:0.9;
-margin-bottom:10px;
-}
-
-.sub{
-font-size:13px;
-opacity:0.7;
-margin-bottom:18px;
-}
-
-/* BUTTON */
-
+.item:last-child{border:0}
 .btn{
-display:block;
-text-decoration:none;
-background:#22c55e;
-color:#000;
-font-weight:700;
-padding:16px;
-border-radius:10px;
-margin:12px 0;
-transition:0.3s;
+ display:block;margin-top:18px;padding:15px;
+ border-radius:50px;text-decoration:none;color:#fff;
+ font-weight:700;font-size:16px;
+ background:linear-gradient(90deg,#00bfff,#7b45ed);
+ box-shadow:0 7px 20px #00bfff33
 }
-
-.btn:hover{
-background:#16a34a;
-transform:scale(1.03);
+.quote{font-size:11px;color:#aaa;line-height:1.5;margin:16px 0}
+.ad{
+ font-size:9px;color:#777;border:1px solid #ffffff12;
+ padding:8px;border-radius:10px
 }
-
-/* TRUST BOX */
-
-.trust{
-background:rgba(0,255,150,0.08);
-padding:10px;
-border-radius:10px;
-font-size:13px;
-margin-bottom:15px;
-border:1px solid rgba(0,255,150,0.2);
-}
-
-/* LIST */
-
-.points{
-list-style:none;
-font-size:14px;
-text-align:left;
-margin:15px 0;
-}
-
-.points li{
-margin:8px 0;
-}
-
-/* URGENCY */
-
-.timer{
-margin-top:10px;
-font-size:13px;
-color:#facc15;
-}
-
-/* SOCIAL PROOF */
-
-.proof{
-margin-top:12px;
-font-size:12px;
-opacity:0.7;
-}
-
-/* FOOTER BRAND */
-
-.footer{
-margin-top:20px;
-font-size:12px;
-opacity:0.6;
-}
-
-.footer a{
-color:#38bdf8;
-text-decoration:none;
-font-weight:600;
-}
-
-.footer a:hover{
-text-decoration:underline;
-}
-
-/* RISK */
-
-.risk{
-margin-top:10px;
-font-size:11px;
-opacity:0.5;
-}
-
+.ad a{color:#00d2ff;text-decoration:none;font-weight:700}
+.note{font-size:8px;color:#555;margin-top:10px}
 </style>
 </head>
 
 <body>
+<div class="card">
 
-<div class="container">
+<img src="https://i.ibb.co/DN4WQGm/b-M5-KIZcikm37-UMDLm-Ca0gxsx98d-Es-N4u-JAEY2-P-bi-IN8-Id-Ggum6-Wc-ESHC6-UYAo-Fe2nk7wr-r3udl-Ok2-If-Eg-QBNQk.jpg">
 
-<img src="https://i.ibb.co/HThtfpR7/Whats-App-Image-2026-01-30-at-8-54-08-PM.jpg" class="logo">
+<h1>TRADE ROOM</h1>
+<div class="sub">📚 Learning Community</div>
 
-<h1>TRADE WITH MUNAAF</h1>
-<h2>NIFTY • BANKNIFTY • OPTIONS</h2>
-
-<p class="sub">
-Daily Intraday Trading Signals & Analysis
-</p>
-
-<!-- TOP BUTTON -->
-<a href="https://t.me/+2PsKWi3L1Uk3NjZl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="trust">
-✔ Trusted by 5,000+ Traders <br>
-✔ Daily Consistent Setups
+<div class="list">
+<div class="item">🌐 Learning & Educational Sessions</div>
+<div class="item">📊 Market Concepts & Awareness</div>
+<div class="item">💎 Chart Reading Concepts</div>
+<div class="item">💻 Educational Case Discussions</div>
 </div>
 
-<ul class="points">
-<li>✔ 5–7 High Probability Trades</li>
-<li>✔ Exact Entry, SL & Target</li>
-<li>✔ Beginner Friendly Guidance</li>
-<li>✔ Live Market Updates</li>
-</ul>
+<a class="btn" id="join"
+href="https://t.me/+HLHKUdDSGgVlMTFl"
+target="_blank">✈️ JOIN TELEGRAM</a>
 
-<!-- BOTTOM BUTTON -->
-<a href="https://t.me/+2PsKWi3L1Uk3NjZl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="timer">
-⏳ Free Access Closing Soon
+<div class="quote">
+नियत अच्छी और मेहनत सच्ची हो, तो कामयाबी जरूर मिलती है।
 </div>
 
-<div class="proof">
-📈 Limited Seats • Active Community
-</div>
-
-<p class="risk">
-⚠ Market investments are subject to risk
-</p>
-
-<!-- CLEAN FOOTER -->
-<div class="footer">
-Powered by 
-<a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank">
-AdsBuild Agency
+<div class="ad">
+Advertised By
+<a href="https://telegram.me/+3XoqJNLxYHswNTc1" target="_blank">
+AD BUILD AGENCY
 </a>
 </div>
 
+<div class="note">
+Educational content only • No profit guarantee
 </div>
 
+</div>
+
+<script>
+document.getElementById("join").onclick=function(){
+ if(typeof fbq==="function")
+ fbq("track","Lead",{content_name:"Telegram Join"});
+};
+</script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1772660720448812');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1772660720448812&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 </html>
